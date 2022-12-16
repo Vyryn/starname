@@ -3,6 +3,8 @@ Starname: Generate pronounceable star names from star designations
 ==================================
 
 The ``starname`` module lets you generate random, pronounceable pseudo-words for a star's designation.
+
+
 - The psudo-name for a given star doesn't change unless its letters and numbers change
 - Names are (mostly) pronounceable
 - Dashes, spaces, capitalization and other funky characters a name can pick up when copy pasting across the web are ignored
@@ -11,8 +13,8 @@ The ``starname`` module lets you generate random, pronounceable pseudo-words for
   - WISE17412553 will have an entirely different name from WISE17412543
 
 
-``starname`` is adapted from Gregory Haskins's ``gibbrish`` library_
-.. _library: https://github.com/greghaskins/starname/blob/master/setup.py
+``starname`` is adapted from Gregory Haskins's ``gibbrish`` library:
+ https://github.com/greghaskins/starname/blob/master/setup.py
 
 
 
