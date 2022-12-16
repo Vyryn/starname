@@ -1,13 +1,21 @@
 ==================================
-Starname: an application for deterministically generating star names from their designations
+Starname: Generate pronounceable star names from star designations
 ==================================
 
-The ``starname`` module let's you generate random, pronounceable (mostly) pseudo-words for a star's designation.
-This means the psudo-name for a given star doesn't change unless its letters and numbers change.
-Dashes, spaces, capitalization and other funky characters a name can pick up when copy pasting across the web are ignored.
-Names are tested to be as short as possible while having a less than 1 in a million chance of duplicating.
-Names should be evenly distributed throughout the namespace, and sensitive to change (so that wise17412553 will have an entirely different name from wise17412543)
-It is adapted from Gregory Haskins's gibbrish library https://github.com/greghaskins/starname/blob/master/setup.py
+The ``starname`` module lets you generate random, pronounceable pseudo-words for a star's designation.
+- The psudo-name for a given star doesn't change unless its letters and numbers change
+- Names are (mostly) pronounceable
+- Dashes, spaces, capitalization and other funky characters a name can pick up when copy pasting across the web are ignored
+- Names are tested to be as short as possible while having a less than 1 in a million chance of duplicating
+- Names should be evenly distributed throughout the namespace, and sensitive to change
+  - WISE17412553 will have an entirely different name from WISE17412543
+
+
+``starname`` is adapted from Gregory Haskins's ``gibbrish`` library_
+.. _library: https://github.com/greghaskins/starname/blob/master/setup.py
+
+
+
 Usage
 -----
 
