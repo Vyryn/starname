@@ -13,8 +13,8 @@ The ``starname`` module lets you generate random, pronounceable pseudo-words for
   - WISE17412553 will have an entirely different name from WISE17412543
 
 
-``starname`` is adapted from Gregory Haskins's ``gibbrish`` library:
- https://github.com/greghaskins/starname/blob/master/setup.py
+``starname`` uses phonemes from Gregory Haskins's ``gibbrish`` library:
+ https://github.com/greghaskins/gibberish
 
 
 
